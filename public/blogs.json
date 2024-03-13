@@ -1,0 +1,52 @@
+[
+  {
+    "id": "1",
+    "cover_img": "https://i.ibb.co/7nG5KbB/first.jpg",
+    "title": "The Journey Beyond",
+    "author_name": "Alice Johnson",
+    "author_img": "https://i.ibb.co/db7gSw7/author-1.jpg",
+    "posted_date": "3 days ago",
+    "read_time": 10,
+    "hashtags": ["adventure", "travel", "exploration"]
+  },
+  {
+    "id": "2",
+    "cover_img": "https://i.ibb.co/4gMDzfS/second.jpg",
+    "title": "Into the Unknown",
+    "author_name": "Bob Smith",
+    "author_img": "https://i.ibb.co/2Z0vzRp/author-2.jpg",
+    "posted_date": "4 days ago",
+    "read_time": 8,
+    "hashtags": ["mystery", "discovery", "journey"]
+  },
+  {
+    "id": "3",
+    "cover_img": "https://i.ibb.co/tstsmqW/third.jpg",
+    "title": "Secrets of the Sea",
+    "author_name": "Eva Brown",
+    "author_img": "https://i.ibb.co/0B7kRXt/author-3.jpg",
+    "posted_date": "5 days ago",
+    "read_time": 12,
+    "hashtags": ["ocean", "marine life", "science"]
+  },
+  {
+    "id": "4",
+    "cover_img": "https://i.ibb.co/vc7WHX4/fourth.jpg",
+    "title": "The Enigma of Time",
+    "author_name": "David Lee",
+    "author_img": "https://i.ibb.co/mJB0qkQ/author-4.jpg",
+    "posted_date": "6 days ago",
+    "read_time": 15,
+    "hashtags": ["philosophy", "time travel", "history"]
+  },
+  {
+    "id": "5",
+    "cover_img": "https://i.ibb.co/jvDMYm8/fifth.jpg",
+    "title": "Stars and Beyond",
+    "author_name": "Sophie Adams",
+    "author_img": "https://i.ibb.co/G9YfYqx/author-5.jpg",
+    "posted_date": "1 week ago",
+    "read_time": 9,
+    "hashtags": ["astronomy", "cosmos", "galaxies"]
+  }
+]
