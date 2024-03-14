@@ -21,7 +21,7 @@ const Blog = ({blog, handleBookmark, handleMarkAsRead}) => {
       <h1 className="text-5xl font-bold my-2">{title}</h1>
       <div className='flex flex-row gap-4 '>
       {
-          hashtags.map(hashtag=><h3 key={blog.id}>
+          hashtags.map((hashtag, idx)=><h3 key={idx}>
             #{hashtag}
           </h3>)
         }
