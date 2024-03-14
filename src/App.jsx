@@ -8,7 +8,7 @@ function App() {
   return (
     <div className='max-w-7xl mx-auto'>
       <Header></Header>
-     <Blogs></Blogs>
+      <Blogs></Blogs>
     </div>
      
      
