@@ -10,9 +10,14 @@ const [bookmarks, setBookmarks]=useState([]);
 const [readingTime, setReadingTime]=useState(0);
 
 const handleBookmark=blog=>{
-  console.log(blog)
-  const newBookmarks=[...bookmarks, blog]
-  setBookmarks(newBookmarks)
+  const isExist=bookmarks.find(bookmark=>bookmark.id===blog.id);
+  if(!isExist){
+    const newBookmarks=[...bookmarks, blog]
+    setBookmarks(newBookmarks)
+  }
+  else{
+    alert("Already Exist")
+  }
 }
 
 const handleMarkAsRead= (id, time)=>{
