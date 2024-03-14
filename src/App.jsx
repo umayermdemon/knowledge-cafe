@@ -15,8 +15,10 @@ const handleBookmark=blog=>{
   setBookmarks(newBookmarks)
 }
 
-const handleMarkAsRead= time=>{
-  setReadingTime(readingTime+time)
+const handleMarkAsRead= (id, time)=>{
+  setReadingTime(readingTime+time);
+  const newBookmarks=bookmarks.filter(bookmark =>bookmark.id!==id);
+  setBookmarks(newBookmarks)
 }
   return (
     <div className='max-w-7xl mx-auto'>

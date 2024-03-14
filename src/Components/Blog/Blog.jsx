@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import bookmarksIcon from '../../assets/images/bookmarks-icon.svg'
 const Blog = ({blog, handleBookmark, handleMarkAsRead}) => {
-  const {title, author_img, author_name, cover_img, posted_date,read_time, hashtags}=blog;
+  const {id, title, author_img, author_name, cover_img, posted_date,read_time, hashtags}=blog;
   return (
     <div className=" mb-8">
       <img className='rounded-xl w-full' src={cover_img} alt="" />
@@ -27,7 +27,7 @@ const Blog = ({blog, handleBookmark, handleMarkAsRead}) => {
         }
       </div>
 
-      <button onClick={()=>handleMarkAsRead(read_time)} className='underline text-sm text-[#6047EC] my-2'>Mark As Read</button>
+      <button onClick={()=>handleMarkAsRead(id, read_time)} className='underline text-sm text-[#6047EC] my-2'>Mark As Read</button>
       
       <hr />
     </div>
